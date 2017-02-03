@@ -1,17 +1,11 @@
-*.class
-*.log
-
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
+project/target/
+project/project/
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+src/main/java/
+src/main/scala-2.12/
+src/test/java
+src/test/resources
+src/test/scala-2.12
+target/
+.idea/
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
